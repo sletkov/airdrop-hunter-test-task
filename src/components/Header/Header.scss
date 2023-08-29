@@ -1,0 +1,134 @@
+.header {
+    width: 100%;
+    height: 88px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.beta-label {   
+    margin-left: 30px;
+    padding: 15px 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #fff;
+}
+
+
+.net-list {
+    height: 40px;
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 16px;
+
+    background-color: gray;
+}
+
+.net__input {
+    display: none;
+}
+
+.net__label {
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--active {
+        background-color: #000;
+        border-radius: 8px;
+        cursor: default;
+    }
+}
+
+.net__icon {
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    filter: brightness(0) invert(1);
+}
+
+
+.beta-label__text {
+    color: #fff;
+}
+
+.beta-label__link {
+    text-decoration: none;
+    cursor: pointer;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.header__right {
+    display: flex;
+    gap: 15px;
+}
+
+.money-btn {
+    padding: 0 10px;
+    color: #fff;
+
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.profile-btn {
+    padding: 0 10px;
+    color: #fff;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+
+    background: gray;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.burger-menu-btn {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    background: none;
+    border: 1px solid blue;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media (max-width: 914px) {
+    .net-list, .money-btn, .profile-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 516px) {
+    .beta-label{
+        display: none;
+    }
+}
