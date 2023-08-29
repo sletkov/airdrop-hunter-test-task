@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/airdrop-hunter-test-task/static/css/main.6bb6f9f6.css",
+    "main.js": "/airdrop-hunter-test-task/static/js/main.d3091e19.js",
+    "static/media/new-img-1.jpg": "/airdrop-hunter-test-task/static/media/new-img-1.f74ca197ec058b055278.jpg",
+    "static/media/logo-white.svg": "/airdrop-hunter-test-task/static/media/logo-white.2ac025cb1c0acac8ff4a011954e98c33.svg",
+    "static/media/poligon.svg": "/airdrop-hunter-test-task/static/media/poligon.5047d4534a3d22328fc34a5a4e5f0784.svg",
+    "static/media/bsc.svg": "/airdrop-hunter-test-task/static/media/bsc.eaf87f710bf8ca809c22a6e2fa95687a.svg",
+    "static/media/eth.svg": "/airdrop-hunter-test-task/static/media/eth.5ed786b026a141819383dd6e667c42d3.svg",
+    "index.html": "/airdrop-hunter-test-task/index.html",
+    "main.6bb6f9f6.css.map": "/airdrop-hunter-test-task/static/css/main.6bb6f9f6.css.map",
+    "main.d3091e19.js.map": "/airdrop-hunter-test-task/static/js/main.d3091e19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bb6f9f6.css",
+    "static/js/main.d3091e19.js"
+  ]
+}
